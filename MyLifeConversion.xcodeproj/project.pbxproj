@@ -6,18 +6,7 @@
 	objectVersion = 55;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		52E8CD1A29F1B28B00A42DB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E8CD1929F1B28B00A42DB0 /* AppDelegate.swift */; };
-		52E8CD1C29F1B28B00A42DB0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E8CD1B29F1B28B00A42DB0 /* SceneDelegate.swift */; };
-		52E8CD1E29F1B28B00A42DB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E8CD1D29F1B28B00A42DB0 /* ViewController.swift */; };
-		52E8CD2129F1B28B00A42DB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E8CD1F29F1B28B00A42DB0 /* Main.storyboard */; };
-		52E8CD2429F1B28B00A42DB0 /* MyLifeConversion.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52E8CD2229F1B28B00A42DB0 /* MyLifeConversion.xcdatamodeld */; };
-		52E8CD2629F1B28C00A42DB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52E8CD2529F1B28C00A42DB0 /* Assets.xcassets */; };
-		52E8CD2929F1B28C00A42DB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E8CD2729F1B28C00A42DB0 /* LaunchScreen.storyboard */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
-		52E8CD1629F1B28B00A42DB0 /* MyLifeConversion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLifeConversion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E8CD1929F1B28B00A42DB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52E8CD1B29F1B28B00A42DB0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		52E8CD1D29F1B28B00A42DB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,16 +16,6 @@
 		52E8CD2829F1B28C00A42DB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52E8CD2A29F1B28C00A42DB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		52E8CD1329F1B28B00A42DB0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		52E8CD0D29F1B28B00A42DB0 = {
@@ -50,7 +29,6 @@
 		52E8CD1729F1B28B00A42DB0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				52E8CD1629F1B28B00A42DB0 /* MyLifeConversion.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -72,26 +50,6 @@
 		};
 /* End PBXGroup section */
 
-/* Begin PBXNativeTarget section */
-		52E8CD1529F1B28B00A42DB0 /* MyLifeConversion */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 52E8CD2D29F1B28C00A42DB0 /* Build configuration list for PBXNativeTarget "MyLifeConversion" */;
-			buildPhases = (
-				52E8CD1229F1B28B00A42DB0 /* Sources */,
-				52E8CD1329F1B28B00A42DB0 /* Frameworks */,
-				52E8CD1429F1B28B00A42DB0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MyLifeConversion;
-			productName = MyLifeConversion;
-			productReference = 52E8CD1629F1B28B00A42DB0 /* MyLifeConversion.app */;
-			productType = "com.apple.product-type.application";
-		};
-/* End PBXNativeTarget section */
-
 /* Begin PBXProject section */
 		52E8CD0E29F1B28B00A42DB0 /* Project object */ = {
 			isa = PBXProject;
@@ -99,11 +57,6 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
-				TargetAttributes = {
-					52E8CD1529F1B28B00A42DB0 = {
-						CreatedOnToolsVersion = 13.4.1;
-					};
-				};
 			};
 			buildConfigurationList = 52E8CD1129F1B28B00A42DB0 /* Build configuration list for PBXProject "MyLifeConversion" */;
 			compatibilityVersion = "Xcode 13.0";
@@ -118,37 +71,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				52E8CD1529F1B28B00A42DB0 /* MyLifeConversion */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		52E8CD1429F1B28B00A42DB0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				52E8CD2929F1B28C00A42DB0 /* LaunchScreen.storyboard in Resources */,
-				52E8CD2629F1B28C00A42DB0 /* Assets.xcassets in Resources */,
-				52E8CD2129F1B28B00A42DB0 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		52E8CD1229F1B28B00A42DB0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				52E8CD1E29F1B28B00A42DB0 /* ViewController.swift in Sources */,
-				52E8CD2429F1B28B00A42DB0 /* MyLifeConversion.xcdatamodeld in Sources */,
-				52E8CD1A29F1B28B00A42DB0 /* AppDelegate.swift in Sources */,
-				52E8CD1C29F1B28B00A42DB0 /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
 		52E8CD1F29F1B28B00A42DB0 /* Main.storyboard */ = {
@@ -284,60 +209,6 @@
 			};
 			name = Release;
 		};
-		52E8CD2E29F1B28C00A42DB0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MyLifeConversion/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = PatrickWacholtz.MyLifeConversion;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		52E8CD2F29F1B28C00A42DB0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MyLifeConversion/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = PatrickWacholtz.MyLifeConversion;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -346,15 +217,6 @@
 			buildConfigurations = (
 				52E8CD2B29F1B28C00A42DB0 /* Debug */,
 				52E8CD2C29F1B28C00A42DB0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		52E8CD2D29F1B28C00A42DB0 /* Build configuration list for PBXNativeTarget "MyLifeConversion" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				52E8CD2E29F1B28C00A42DB0 /* Debug */,
-				52E8CD2F29F1B28C00A42DB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
